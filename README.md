@@ -17,7 +17,7 @@
 ## Or by Dockerfile and Docker Compose
 
 - sudo docker build -t backend-go-synapsis:v1 .
-- or sudo docker pull lutfy/backend-synapsis:v1 
+- or sudo docker pull lutfy/backend-synapsis:v1 </br>
 <https://hub.docker.com/repository/docker/lutfy/backend-synapsis/general>
 - docker-compose up -d
 - optional : sudo docker-compose restart backend-go
@@ -46,14 +46,14 @@
 [DELETE]    `localhost:7000/api/shopping-cart/{purchase_id}/delete` : Delete shopping-cart by purchase_id</br>
 </br>
 
-- TOP-UP
+- PAYMENT
 
 [POST]      `localhost:7000/api/payment/{purchase_id}` : Add Payment</br>
 [GET]       `localhost:7000/api/payment` : View All Payment</br>
 [DELETE]    `localhost:7000/api/payment/{payment_id}/delete` : Delete Payment by payment_id</br>
 </br>
 
-- PAYMENT
+- TOP-UP
 
 [POST]    `localhost:7000/api/topup/{amount}` : Transfer</br>
 </br>
