@@ -22,6 +22,10 @@
 - docker-compose up -d
 - optional : sudo docker-compose restart backend-go
 
+## Support Document 
+- Can be seen in the docs folder (erd file and create database)
+
+
 ## Endpoints List
 
 - USER
