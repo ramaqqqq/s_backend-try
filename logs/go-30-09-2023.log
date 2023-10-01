@@ -1,0 +1,78 @@
+[INFO]: 30-09-2023 16:09:40 - Register success, response: {"body":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6InVkaW5AZ21haWwuY29tIiwiZXhwIjoxNjk2MDcyMTgwLCJyb2xlIjoiIiwidWlkIjoiMSIsInVzZXJuYW1lIjoidWRpbiJ9.c7Rj8knJZY3_u1XT_PvUemCmB7bsEvzwqPvfrTIiyOo","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6InVkaW5AZ21haWwuY29tIiwiZXhwIjoxNjk2MDcyMTgwLCJyb2xlIjoiIiwidWlkIjoiMSIsInVzZXJuYW1lIjoidWRpbiJ9.c7Rj8knJZY3_u1XT_PvUemCmB7bsEvzwqPvfrTIiyOo","users":{"created":"2023-09-30T16:09:40+07:00","email":"udin@gmail.com","id":1,"role":"","username":"udin"}},"code":200,"message":"Successfully"}
+[INFO]: 30-09-2023 16:10:11 - Login success, Response: {"body":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6InVkaW5AZ21haWwuY29tIiwiZXhwIjoxNjk2MDcyMjExLCJyb2xlIjoiIiwidWlkIjoiMSIsInVzZXJuYW1lIjoidWRpbiJ9.XhELf_5WHP9J6-zfxuszMj1Ms1NJPtRbOQvu-7ZZ5mg","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6InVkaW5AZ21haWwuY29tIiwiZXhwIjoxNjk2MDcyMjExLCJyb2xlIjoiIiwidWlkIjoiMSIsInVzZXJuYW1lIjoidWRpbiJ9.XhELf_5WHP9J6-zfxuszMj1Ms1NJPtRbOQvu-7ZZ5mg","users":{"email":"udin@gmail.com","role":"","user_id":1,"username":"udin"}},"code":200,"message":"Successfully"}
+[INFO]: 30-09-2023 16:13:50 - response: {"body":{"item_id":1,"item_name":"Nike","item_price":2000,"item_stock":40},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 16:14:17 - Success to get all item
+[INFO]: 30-09-2023 16:16:52 - Success updated, response: {"body":{"item_id":0,"user_id":0,"item_name":"Adinda","price":2000,"stock":40},"code":200,"message":"Successfully"}
+[INFO]: 30-09-2023 16:30:37 - Login success, Response: {"body":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6InVkaW5AZ21haWwuY29tIiwiZXhwIjoxNjk2MDczNDM3LCJyb2xlIjoiIiwidXNlcl9pZCI6IjEiLCJ1c2VybmFtZSI6InVkaW4ifQ.rrfSmfvHdfkwnO7UGl5XXxlIyXIMV3gN0_4KidjbLSk","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6InVkaW5AZ21haWwuY29tIiwiZXhwIjoxNjk2MDczNDM3LCJyb2xlIjoiIiwidXNlcl9pZCI6IjEiLCJ1c2VybmFtZSI6InVkaW4ifQ.rrfSmfvHdfkwnO7UGl5XXxlIyXIMV3gN0_4KidjbLSk","users":{"email":"udin@gmail.com","role":"","user_id":1,"username":"udin"}},"code":200,"message":"Successfully"}
+[INFO]: 30-09-2023 16:30:52 - Success updated, response: {"body":{"item_id":1,"user_id":1,"item_name":"Adinda","price":2000,"stock":40},"code":200,"message":"Successfully"}
+[INFO]: 30-09-2023 16:32:29 - response: {"body":{"item_id":2,"item_name":"Nike","item_price":2000,"item_stock":40},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 16:32:38 - Success to get all item
+[INFO]: 30-09-2023 16:33:25 - Success to get all item
+[INFO]: 30-09-2023 16:39:24 - response: {"body":{"item_id":1,"purchase_date":"2023-09-30T16:39:24.05329512+07:00","purhase_id":1,"quantity":0,"total_price":0,"user_id":1},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 16:41:54 - response: {"body":{"item_id":1,"purchase_date":"2023-09-30T16:41:54.505161231+07:00","purhase_id":2,"quantity":0,"total_price":0,"user_id":1},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 16:43:08 - response: {"body":{"item_id":1,"purchase_date":"2023-09-30T16:43:08.158109402+07:00","purhase_id":3,"quantity":0,"total_price":0,"user_id":1},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 16:44:47 - response: {"body":{"item_id":1,"purchase_date":"2023-09-30T16:44:47.870936816+07:00","purhase_id":4,"quantity":10,"total_price":20000,"user_id":1},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 16:46:00 - success to get all purchase
+[ERROR]: 30-09-2023 16:53:02 - In Server: record not found
+[ERROR]: 30-09-2023 16:53:02 - In Server: record not found
+[INFO]: 30-09-2023 16:53:20 - Success to updated, response: {"body":{"item_id":1,"purchase_id":1,"quantity":10,"total_price":20000,"user_id":1},"code":200,"message":"Successfully"}
+[INFO]: 30-09-2023 16:54:49 - success to get all purchase
+[ERROR]: 30-09-2023 16:56:09 - In Server: [BlogHandler.Deleted] - id is not exist
+[ERROR]: 30-09-2023 16:56:09 - In Server: id is not exist
+[INFO]: 30-09-2023 16:58:07 - deleted purchase
+[INFO]: 30-09-2023 16:58:15 - deleted purchase
+[INFO]: 30-09-2023 16:58:19 - deleted purchase
+[ERROR]: 30-09-2023 16:59:47 - In Server: [BlogHandler.Deleted] - id is not exist
+[ERROR]: 30-09-2023 16:59:47 - In Server: id is not exist
+[ERROR]: 30-09-2023 17:06:32 - In Server: insufficient balance
+[ERROR]: 30-09-2023 17:06:32 - In Server: Insufficient balance
+[INFO]: 30-09-2023 17:07:13 - In Server: Payment created successfully
+[INFO]: 30-09-2023 17:07:13 - created payment, response: {"body":{"amount":20000,"order_id":"330975d1-da38-425d-b735-eebe0d1f609f","payment_date":"2023-09-30T17:07:13.526235813+07:00","payment_id":1,"purchase_id":1,"status":"Pembayaran berhasil","user_id":1},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 17:10:08 - get all payment
+[INFO]: 30-09-2023 17:11:37 - In Server: Payment created successfully
+[INFO]: 30-09-2023 17:11:37 - created payment, response: {"body":{"amount":20000,"order_id":"bb1be526-7e59-40f3-8d2e-940e2581b5f5","payment_date":"2023-09-30T17:11:37.551431203+07:00","payment_id":2,"purchase_id":1,"status":"Pembayaran berhasil","user_id":1},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 17:11:44 - get all payment
+[INFO]: 30-09-2023 17:12:27 - deleted payment2
+[INFO]: 30-09-2023 17:12:37 - get all payment
+[INFO]: 30-09-2023 17:15:09 - response: {"body":{"amount":2000,"id":0,"status":"Pending","url":"https://app.sandbox.midtrans.com/snap/v3/redirection/ec477c7b-635e-4b5b-805a-ebc256c94143"},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 17:18:30 - response: {"body":{"amount":2000,"id":"1","status":"Pending","url":"url"},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 17:20:25 - response: {"body":{"amount":2000,"id":"1","status":"Pending","url":"url"},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 17:23:30 - response: {"body":{"amount":4000,"id":"1","status":"berhasil"},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 17:26:05 - response: {"body":{"amount":2,"id":"1","status":"berhasil"},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 17:29:31 - response: {"body":{"amount":1000,"id":"1","status":"berhasil"},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 17:29:45 - response: {"body":{"amount":1,"id":"1","status":"berhasil"},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 17:31:37 - response: {"body":{"amount":1,"id":"1","status":"berhasil"},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 17:31:47 - response: {"body":{"amount":2,"id":"1","status":"berhasil"},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 17:32:07 - response: {"body":{"amount":2,"id":"1","status":"berhasil"},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 17:34:29 - response: {"body":{"amount":4,"id":"1","status":"berhasil"},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 17:34:33 - response: {"body":{"amount":2004,"id":"1","status":"berhasil"},"code":201,"message":"Successfully"}
+[ERROR]: 30-09-2023 20:57:37 - In Server: record not found
+[ERROR]: 30-09-2023 20:57:37 - In Server: record not found
+[INFO]: 30-09-2023 20:58:00 - Register success, response: {"body":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6InVkaW5AZ21haWwuY29tIiwiZXhwIjoxNjk2MDg5NDgwLCJyb2xlIjoiIiwidXNlcl9pZCI6IjEiLCJ1c2VybmFtZSI6InVkaW4ifQ.dpXpXOmIxHDTsHq77iI_Dt7MtzzVgLagQULdBCnxwbg","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6InVkaW5AZ21haWwuY29tIiwiZXhwIjoxNjk2MDg5NDgwLCJyb2xlIjoiIiwidXNlcl9pZCI6IjEiLCJ1c2VybmFtZSI6InVkaW4ifQ.dpXpXOmIxHDTsHq77iI_Dt7MtzzVgLagQULdBCnxwbg","users":{"created":"2023-09-30T20:58:00+07:00","email":"udin@gmail.com","id":1,"role":"","username":"udin"}},"code":200,"message":"Successfully"}
+[INFO]: 30-09-2023 20:58:12 - Login success, Response: {"body":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6InVkaW5AZ21haWwuY29tIiwiZXhwIjoxNjk2MDg5NDkyLCJyb2xlIjoiIiwidXNlcl9pZCI6IjEiLCJ1c2VybmFtZSI6InVkaW4ifQ.ibo3vCWD9e2B-7mT0eM1u6LDtq9I8YJZsedGImasB2w","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6InVkaW5AZ21haWwuY29tIiwiZXhwIjoxNjk2MDg5NDkyLCJyb2xlIjoiIiwidXNlcl9pZCI6IjEiLCJ1c2VybmFtZSI6InVkaW4ifQ.ibo3vCWD9e2B-7mT0eM1u6LDtq9I8YJZsedGImasB2w","users":{"email":"udin@gmail.com","role":"","user_id":1,"username":"udin"}},"code":200,"message":"Successfully"}
+[INFO]: 30-09-2023 20:58:36 - response: {"body":{"item_id":1,"item_name":"Sepatu Nike","item_price":2000,"item_stock":40},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 20:59:29 - Success to get all item
+[INFO]: 30-09-2023 21:02:15 - Success updated, response: {"body":{"item_id":1,"user_id":1,"item_name":"Adidas","price":2000,"stock":40},"code":200,"message":"Successfully"}
+[INFO]: 30-09-2023 21:04:00 - response: {"body":{"item_id":2,"item_name":"Sepatu Nike","item_price":2000,"item_stock":40},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 21:10:11 - Login success, Response: {"body":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6InVkaW5AZ21haWwuY29tIiwiZXhwIjoxNjk2MDkwMjExLCJyb2xlIjoiIiwidXNlcl9pZCI6IjEiLCJ1c2VybmFtZSI6InVkaW4ifQ.aAyS6EdXjnH4954doT77NUte-bgJ8MZMWzV8uk39m_g","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJlbWFpbCI6InVkaW5AZ21haWwuY29tIiwiZXhwIjoxNjk2MDkwMjExLCJyb2xlIjoiIiwidXNlcl9pZCI6IjEiLCJ1c2VybmFtZSI6InVkaW4ifQ.aAyS6EdXjnH4954doT77NUte-bgJ8MZMWzV8uk39m_g","users":{"email":"udin@gmail.com","role":"","user_id":1,"username":"udin"}},"code":200,"message":"Successfully"}
+[ERROR]: 30-09-2023 21:10:44 - In Server: Error 1146: Table 'bb.shopp_carts' doesn't exist
+[ERROR]: 30-09-2023 21:10:44 - In Server: Error 1146: Table 'bb.shopp_carts' doesn't exist
+[INFO]: 30-09-2023 21:13:04 - response: {"body":{"item_id":1,"purchase_date":"2023-09-30T21:13:04.634305149+07:00","purhase_id":1,"quantity":10,"total_price":20000,"user_id":1},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 21:17:35 - success to get all purchase
+[INFO]: 30-09-2023 21:18:51 - Success to updated, response: {"body":{"item_id":1,"purchase_id":1,"quantity":10,"total_price":20000,"user_id":1},"code":200,"message":"Successfully"}
+[INFO]: 30-09-2023 21:19:04 - Success to updated, response: {"body":{"item_id":1,"purchase_id":1,"quantity":20,"total_price":40000,"user_id":1},"code":200,"message":"Successfully"}
+[ERROR]: 30-09-2023 21:24:46 - In Server: [BlogHandler.Deleted] - id is not exist
+[ERROR]: 30-09-2023 21:24:46 - In Server: id is not exist
+[ERROR]: 30-09-2023 21:25:45 - In Server: Error 1205: Lock wait timeout exceeded; try restarting transaction
+[ERROR]: 30-09-2023 21:25:45 - In Server: Error 1205: Lock wait timeout exceeded; try restarting transaction
+[INFO]: 30-09-2023 21:26:04 - response: {"body":{"item_id":1,"purchase_date":"2023-09-30T21:26:04.815878816+07:00","purhase_id":5,"quantity":5,"total_price":10000,"user_id":1},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 21:26:23 - success to get all purchase
+[ERROR]: 30-09-2023 21:26:38 - In Server: [BlogHandler.Deleted] - id is not exist
+[ERROR]: 30-09-2023 21:26:38 - In Server: id is not exist
+[INFO]: 30-09-2023 21:27:50 - deleted purchase
+[ERROR]: 30-09-2023 21:31:10 - In Server: insufficient balance
+[ERROR]: 30-09-2023 21:31:10 - In Server: Insufficient balance
+[INFO]: 30-09-2023 21:31:31 - response: {"body":{"amount":20000000,"id":"1"},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 21:31:37 - In Server: Payment created successfully
+[INFO]: 30-09-2023 21:31:37 - created payment, response: {"body":{"amount":40000,"order_id":"28156188-d86a-4ab8-99ce-baac918e8c15","payment_date":"2023-09-30T21:31:37.217301048+07:00","payment_id":1,"purchase_id":1,"status":"Pembayaran berhasil","user_id":1},"code":201,"message":"Successfully"}
+[INFO]: 30-09-2023 21:32:37 - get all payment

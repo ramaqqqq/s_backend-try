@@ -1,0 +1,29 @@
+version: '3'
+services:
+    mysql-synapsis-v1:
+        image: mysql
+        container_name: mysql-synapsis
+        ports:
+            - "3307:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: rahasia
+            MYSQL_DATABASE: synapsisdb
+        networks:
+            - todo-synapsis
+
+    backend-go:
+        image: lutfy/backend-synapsis:v1 
+        container_name: backend-go-synapsis 
+        environment:
+            DB_USER: root
+            DB_PASSWORD: rahasia
+            DB_HOST: mysql-synapsis  
+            DB_PORT: 3306
+            DB_DATABASE: synapsisdb
+        ports:
+            - "7000:7000"
+        networks:
+            - todo-synapsis
+        restart: always 
+networks:
+    todo-synapsis:
