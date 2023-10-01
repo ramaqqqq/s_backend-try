@@ -18,7 +18,7 @@
 
 - sudo docker build -t backend-go-synapsis:v1 .
 - or sudo docker pull lutfy/backend-synapsis:v1 </br>
-<https://hub.docker.com/repository/docker/lutfy/backend-synapsis/general>
+<https://hub.docker.com/r/lutfy/backend-synapsis>
 - docker-compose up -d
 - optional : sudo docker-compose restart backend-go
 
